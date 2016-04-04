@@ -7,5 +7,3 @@ RUN echo "deb http://ppa.launchpad.net/webupd8team/java/ubuntu trusty main" | te
     && apt-get update \
     && apt-get install -y wget git curl zip oracle-java8-installer \
     && rm -rf /var/lib/apt/lists/*
-	 
-ENV JAVA_HOME = /usr/lib/jvm/java-8-oracle/
